@@ -1,11 +1,10 @@
 import React from "react";
-import logo from '../../logo.svg'
 
 class Cat extends React.Component {
   render() {
     const mouse = this.props.mouse;
     return (
-      <img src={logo} alt='0' style={{ width:100, height:100, position: 'absolute', left: mouse.x-50, top: mouse.y-50 }} />
+      <img src='http://c565784135.gitee.io/react-demo/static/media/logo.5d5d9eef.svg' alt='0' style={{ width:100, height:100, position: 'absolute', left: mouse.x-50, top: mouse.y-50 }} />
     );
   }
 }

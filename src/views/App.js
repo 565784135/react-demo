@@ -8,7 +8,7 @@ function App () {
   return (
     <Router>
       <div>
-        <div className='fix left g-body'>
+        <div className='fix left'>
           {routes.map((item,i)=>(
             <div key={i}>
               <h2>react</h2>
