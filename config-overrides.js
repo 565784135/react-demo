@@ -61,7 +61,7 @@ module.exports = {
     // })
   ),
   devServer: overrideDevServer(
-    //addScopedCSS,
+    addScopedCSS,
     devServerConfig
   )
 }
